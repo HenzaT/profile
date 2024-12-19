@@ -73,6 +73,11 @@ a:hover {
   box-shadow: 1px 1px 2px grey;
 }
 
+.follow-socials {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+}
+
 .img-circle {
   width: 200px;
   border-radius: 100px;
@@ -81,4 +86,5 @@ a:hover {
 .inline {
   list-style: none;
   padding-left: 0px;
+  font-size: 50px;
 }
