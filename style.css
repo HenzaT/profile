@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  background-color: #FFEACD;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: medium;
+  line-height: normal;
+  text-align: center;
+}
+
+.profile-name {
+  color: rgb(48, 23, 0);
+  font-family: 'raleway', sans-serif;
+}
+
+.profile-role {
+  color: rgb(48, 23, 0);
+  font-family: 'raleway', sans-serif;
+  font-weight: 200;
+}
+
+.profile-bio {
+  color: rgb(48, 23, 0);
+  font-family: 'raleway', sans-serif;
+  font-weight: 200;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: #F74B00;
+  text-decoration: none;
+}
+
+
+.container {
+  width: 500px;
+  margin: 0px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+  background: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px grey;
+}
+
+.card-grey {
+  background: #ECECEC;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px grey;
+}
+
+.img-circle {
+  width: 200px;
+  border-radius: 100px;
+}
+
+.inline {
+  list-style: none;
+  padding-left: 0px;
+}
